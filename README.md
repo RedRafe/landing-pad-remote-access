@@ -7,7 +7,7 @@
 - Build a *Landing Pad Remote Access* anywhere on the map, it will automatically autolink to the surface's *Cargo Landing Pad*.
 - No performance impact: the *Landing Pad Remote Access* is natively supported by the engine, so special script is needed to run it.
 
-![overview](https://github.com/RedRafe/research-tower/blob/main/archive/overview.png?raw=true)
+![overview](https://github.com/RedRafe/landing-pad-remote-access/blob/main/archive/overview.png?raw=true)
 
 ### Credits
 Assets by [Hurricane046](https://mods.factorio.com/user/Hurricane046)

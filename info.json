@@ -1,0 +1,17 @@
+{
+  "name": "landing-pad-remote-access",
+  "version": "0.1.0",
+  "title": "Landing Pad Remote Access",
+  "author": "RedRafe",
+  "source": "https://github.com/RedRafe/landing-pad-remote-access",
+  "homepage": "https://mods.factorio.com/user/RedRafe",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base >= 2.0.0",
+    "space-age",
+    "! a_lot_of_cargo_pads",
+    "! additional-cargo-landing-pads",
+    "! more-landing-pads"
+  ],
+  "description": "Access Cargo Landing Pad inventories remotely — manage cargo from anywhere! Enhance your logistics with easy remote connectivity."
+}

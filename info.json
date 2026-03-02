@@ -1,6 +1,6 @@
 {
   "name": "landing-pad-remote-access",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "title": "Landing Pad Remote Access",
   "author": "RedRafe",
   "source": "https://github.com/RedRafe/landing-pad-remote-access",
@@ -8,7 +8,7 @@
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.0",
-    "space-age",
+    "? space-age",
     "! a_lot_of_cargo_pads",
     "! additional-cargo-landing-pads",
     "! more-landing-pads"

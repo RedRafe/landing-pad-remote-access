@@ -10,7 +10,7 @@ data:extend({
         name = PROXY_NAME,
         icon = path .. 'item-extractor-icon.png',
         icon_size = 64,
-        subgroup = 'space-platform',
+        subgroup = mods['space-age'] and 'space-platform' or 'space-related',
         order = 'c[lpra-proxy-container]',
         inventory_move_sound = item_sounds.mechanical_large_inventory_move,
         pick_sound = item_sounds.mechanical_large_inventory_pickup,

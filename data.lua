@@ -134,121 +134,123 @@ data:extend({
             },
         },
         circuit_connector = {
-            points = {
-                shadow = {
-                    green = {
-                        4.6875,
-                        3.03125,
+            {
+                points = {
+                    shadow = {
+                        green = {
+                            4.6875,
+                            3.03125,
+                        },
+                        red = {
+                            4.9375,
+                            3,
+                        },
                     },
-                    red = {
-                        4.9375,
-                        3,
+                    wire = {
+                        green = {
+                            1.9375,
+                            1.375,
+                        },
+                        red = {
+                            2,
+                            1.1875,
+                        },
                     },
                 },
-                wire = {
-                    green = {
-                        1.9375,
-                        1.375,
+                sprites = {
+                    blue_led_light_offset = {
+                        1.78125,
+                        1.25,
                     },
-                    red = {
-                        2,
-                        1.1875,
+                    connector_main = {
+                        filename = '__base__/graphics/entity/circuit-connector/ccm-universal-04a-base-sequence.png',
+                        height = 50,
+                        priority = 'low',
+                        scale = 0.5,
+                        shift = {
+                            1.875,
+                            1.03125,
+                        },
+                        width = 52,
+                        x = 52,
+                        y = 150,
                     },
-                },
-            },
-            sprites = {
-                blue_led_light_offset = {
-                    1.78125,
-                    1.25,
-                },
-                connector_main = {
-                    filename = '__base__/graphics/entity/circuit-connector/ccm-universal-04a-base-sequence.png',
-                    height = 50,
-                    priority = 'low',
-                    scale = 0.5,
-                    shift = {
-                        1.875,
-                        1.03125,
+                    led_blue = {
+                        draw_as_glow = true,
+                        filename = '__base__/graphics/entity/circuit-connector/ccm-universal-04e-blue-LED-on-sequence.png',
+                        height = 60,
+                        priority = 'low',
+                        scale = 0.5,
+                        shift = {
+                            1.875,
+                            1,
+                        },
+                        width = 60,
+                        x = 60,
+                        y = 180,
                     },
-                    width = 52,
-                    x = 52,
-                    y = 150,
-                },
-                led_blue = {
-                    draw_as_glow = true,
-                    filename = '__base__/graphics/entity/circuit-connector/ccm-universal-04e-blue-LED-on-sequence.png',
-                    height = 60,
-                    priority = 'low',
-                    scale = 0.5,
-                    shift = {
-                        1.875,
-                        1,
+                    led_blue_off = {
+                        filename = '__base__/graphics/entity/circuit-connector/ccm-universal-04f-blue-LED-off-sequence.png',
+                        height = 44,
+                        priority = 'low',
+                        scale = 0.5,
+                        shift = {
+                            1.875,
+                            1,
+                        },
+                        width = 46,
+                        x = 46,
+                        y = 132,
                     },
-                    width = 60,
-                    x = 60,
-                    y = 180,
-                },
-                led_blue_off = {
-                    filename = '__base__/graphics/entity/circuit-connector/ccm-universal-04f-blue-LED-off-sequence.png',
-                    height = 44,
-                    priority = 'low',
-                    scale = 0.5,
-                    shift = {
-                        1.875,
-                        1,
+                    led_green = {
+                        draw_as_glow = true,
+                        filename = '__base__/graphics/entity/circuit-connector/ccm-universal-04h-green-LED-sequence.png',
+                        height = 46,
+                        priority = 'low',
+                        scale = 0.5,
+                        shift = {
+                            1.875,
+                            1,
+                        },
+                        width = 48,
+                        x = 48,
+                        y = 138,
                     },
-                    width = 46,
-                    x = 46,
-                    y = 132,
-                },
-                led_green = {
-                    draw_as_glow = true,
-                    filename = '__base__/graphics/entity/circuit-connector/ccm-universal-04h-green-LED-sequence.png',
-                    height = 46,
-                    priority = 'low',
-                    scale = 0.5,
-                    shift = {
-                        1.875,
-                        1,
+                    led_light = {
+                        intensity = 0,
+                        size = 0.9,
                     },
-                    width = 48,
-                    x = 48,
-                    y = 138,
-                },
-                led_light = {
-                    intensity = 0,
-                    size = 0.9,
-                },
-                led_red = {
-                    draw_as_glow = true,
-                    filename = '__base__/graphics/entity/circuit-connector/ccm-universal-04i-red-LED-sequence.png',
-                    height = 46,
-                    priority = 'low',
-                    scale = 0.5,
-                    shift = {
-                        1.875,
-                        1,
+                    led_red = {
+                        draw_as_glow = true,
+                        filename = '__base__/graphics/entity/circuit-connector/ccm-universal-04i-red-LED-sequence.png',
+                        height = 46,
+                        priority = 'low',
+                        scale = 0.5,
+                        shift = {
+                            1.875,
+                            1,
+                        },
+                        width = 48,
+                        x = 48,
+                        y = 138,
                     },
-                    width = 48,
-                    x = 48,
-                    y = 138,
-                },
-                red_green_led_light_offset = {
-                    1.75,
-                    1.15625,
-                },
-                wire_pins = {
-                    filename = '__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png',
-                    height = 58,
-                    priority = 'low',
-                    scale = 0.5,
-                    shift = {
-                        1.875,
-                        1.03125,
+                    red_green_led_light_offset = {
+                        1.75,
+                        1.15625,
                     },
-                    width = 62,
-                    x = 62,
-                    y = 174,
+                    wire_pins = {
+                        filename = '__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png',
+                        height = 58,
+                        priority = 'low',
+                        scale = 0.5,
+                        shift = {
+                            1.875,
+                            1.03125,
+                        },
+                        width = 62,
+                        x = 62,
+                        y = 174,
+                    },
                 },
             },
         },
